@@ -1,12 +1,15 @@
-# Spryker Commerce OS
+# CalculationExtension Module
+[![Build Status](https://travis-ci.org/spryker/calculation-extension.svg)](https://travis-ci.org/spryker/calculation-extension)
+[![Coverage Status](https://coveralls.io/repos/github/spryker/calculation-extension/badge.svg)](https://coveralls.io/github/spryker/calculation-extension)
 
-## Core Modules
+CalculationExtension module provides plugin interfaces used by Calculation module.
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/spryker/spryker-core/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/spryker/spryker-core/?branch=master)
-[![Minimum PHP Version](http://img.shields.io/badge/php-%3E%3D%207.1-8892BF.svg)](https://php.net/)
+## Installation
 
-### Links
-- **[Spryker Documentation](https://academy.spryker.com/)**
-- [Spryker Architecture-Sniffer](https://github.com/spryker/architecture-sniffer)
-- [Spryker Code-Sniffer](https://github.com/spryker/code-sniffer)
-- [Spryker Code-Generator](https://github.com/spryker/code-generator)
+```
+composer require spryker/calculation-extension
+```
+
+## Documentation
+
+[Spryker Documentation](https://academy.spryker.com/developing_with_spryker/module_guide/modules.html)

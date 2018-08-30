@@ -8,30 +8,21 @@
 *.AppleDouble
 *.AppleDB
 *.AppleDesktop
-Temporary Items
-.apdisk
-GPATH
-GRTAGS
-GTAGS
+
+# built client resources
+/src/*/Zed/*/Static/Public
+/src/*/Zed/*/Static/Assets/sprite
+
+# propel classes
+/src/*/Zed/*/Persistence/Propel/Base/*
+/src/*/Zed/*/Persistence/Propel/Map/*
 
 # OS
 .DS_Store
 
-# vagrant stuff
-.vagrant
-
-# profiling
-/profiler
-
-npm-debug.log
-Bundles/*/tests/_output
-Bundles/*/tests/**/_support/_generated
-
-# assets
+# grunt stuff
+.grunt
 .sass-cache
-node_modules/
-/static/public/
-yarn.lock
-/vendor/*
-composer.phar
-composer.lock
+/node_modules/
+/tests/_output/*
+!/tests/_output/.gitkeep
